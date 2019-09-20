@@ -39,3 +39,38 @@ header{
   background-size: contain;
   border: 1px solid black;
 }
+
+/* stile della sezione centrale grigia */
+
+.sezione-grigia{
+  width: 100%;
+  height: 1000px;
+  background-color: #F5F8FA;
+}
+
+.cubo{
+  height: 200px;
+}
+
+.free-hubspot{
+  width: 80%;
+  height: 200px;
+  margin: 1% 10%;
+  background-color: white;
+}
+
+.trittico{
+  width: 80%;
+  margin: 1% 10%;
+}
+
+.marketing {
+  height: 400px;
+  width: 25%;
+  float: left;
+  background-color: white;
+}
+
+.col2{
+  margin: 0 12.5%;
+}
