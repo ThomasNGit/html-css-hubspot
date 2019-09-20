@@ -1,0 +1,28 @@
+/* regole generali di pagina */
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+/* regole header */
+header{
+  width: 100%;
+}
+
+.navbar{
+  height: 50px;
+  background-color: red;
+
+}
+.contatti{
+  height: 50px;
+  background-color: blue;
+
+}
+.link{
+  height: 50px;
+  background-color: green;
+
+}
