@@ -14,10 +14,9 @@ header{
 }
 /* stile della navbar */
 .navbar{
-  /* height: 50px; */
   width: 100%;
   background-color: #33475B;
-  border: 1px solid black;
+  border: 2px solid black;
 }
 
 .logo{
@@ -75,9 +74,9 @@ header{
 
 /* stile area contatti */
 .contatti{
-  /* height: 50px; */
   background-color: darkgrey;
   width: 100%;
+  border: 2px solid black;
 }
 
 .lingua{
@@ -86,7 +85,6 @@ header{
   margin-left: 10%;
   margin-top: 15px;
   margin-bottom: 15px;
-  border: 1px solid black;
 }
 
 .eng{
@@ -127,11 +125,51 @@ header{
 
 /* stile area link di pagina */
 .link{
-  height: 50px;
+  width: 100%;
   background-color: white;
-  border: 1px solid black;
+  border: 2px solid black;
 }
 
+#logo{
+  float: left;
+  width: 50%;
+}
+
+.logo2{
+  margin: 0 10%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.links{
+  float: right;
+  width: 20%;
+  margin-right: 16%;
+}
+
+.links ul li{
+  display: inline-block;
+}
+
+.links ul{
+  padding-top: 20px;
+}
+
+.links a{
+  color: #33475B;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 5px;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+/* clearfix sezione link */
+.link{
+  content: "";
+  display: table;
+  clear: both;
+}
 /* stile della prima sezione centrale */
 .intro{
   width: 100%;
