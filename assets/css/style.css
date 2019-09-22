@@ -66,7 +66,7 @@ header{
 }
 
 /* clearfix navbar */
-.navbar{
+.navbar:after{
   content: "";
   display: table;
   clear: both;
@@ -117,7 +117,7 @@ header{
 
 
 /* clearfix sezione contatti */
-.contatti{
+.contatti:after{
   content: "";
   display: table;
   clear: both;
@@ -165,7 +165,7 @@ header{
 }
 
 /* clearfix sezione link */
-.link{
+.link:after{
   content: "";
   display: table;
   clear: both;
@@ -233,14 +233,12 @@ header{
 }
 /* stile prima sezione bianca */
 .free-hubspot{
-  width: 80%;
-  height: 350px;
-  margin: 0 10%;
+  width: 60%;
+  margin: 0 20%;
   background-color: white;
 }
 .illustration{
   width: 30%;
-  height: 300px;
   float: left;
 }
 
@@ -285,7 +283,7 @@ header{
 }
 
 /* clearfix sezione free hubspot */
-.free-hubspot{
+.free-hubspot:after{
   content: "";
   display: table;
   clear: both;
@@ -293,21 +291,45 @@ header{
 
 /* stile sezione delle tre colonne */
 .trittico{
-  width: 80%;
+  width: 60%;
   height: 600px;
-  margin: 1% 10%;
+  margin: 1% 20%;
 }
 
 .marketing {
   height: 600px;
-  width: 25%;
+  width: 30%;
   float: left;
   background-color: white;
   border: 1px solid black;
+  text-align: center;
 }
 
 .col2{
-  margin: 0 12.5%;
+  margin: 0 5%;
 }
+
+.img-text{
+  height: 50%;
+  border-bottom: 2px solid black;
+}
+
+.trimg{
+  width: 40%;
+  margin-bottom: 30px;
+}
+
+.col2 .trimg{
+  margin-top: 25px;
+}
+
+.col3 h2{
+  margin-top: -15px;
+}
+
+.marketing h2{
+  margin-bottom: 20px;
+}
+
 
 /* stile sezione azzurra */
