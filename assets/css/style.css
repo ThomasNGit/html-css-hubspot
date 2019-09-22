@@ -323,13 +323,35 @@ header{
   margin-top: 25px;
 }
 
-.col3 h2{
-  margin-top: -15px;
-}
-
 .marketing h2{
   margin-bottom: 20px;
 }
+/* stile seconda parte trittico */
 
+.features{
+  height: 50%;
+  margin-top: 20px;
+}
 
+.features li{
+  line-height: 30px;
+  list-style: none;
+}
+
+.features ul{
+  margin-bottom: 30px;
+}
+
+.features i{
+  margin-right: 20px;
+}
+
+.features a{
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  background-color: #FF7A59;
+  border: 1px solid black;
+  border-radius: 10px;
+}
 /* stile sezione azzurra */
