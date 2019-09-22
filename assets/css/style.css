@@ -231,20 +231,71 @@ header{
 .cubo h2{
   margin-bottom: 30px;
 }
-
+/* stile prima sezione bianca */
 .free-hubspot{
   width: 80%;
-  height: 300px;
+  height: 350px;
   margin: 0 10%;
   background-color: white;
 }
+.illustration{
+  width: 30%;
+  height: 300px;
+  float: left;
+}
 
+.illustration img{
+  margin: 5% 20%;
+}
+
+.illustration a{
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  display: inline-block;
+  margin-left: 35%;
+  margin-bottom: 10px;
+  background-color: #FF7A59;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.freetxt{
+  float: left;
+  width: 50%;
+  margin-left: 20%;
+  margin-top: 50px;
+}
+
+.freetxt p{
+  margin: 30px 0;
+}
+
+.freetxt ul{
+  list-style: square;
+}
+
+.freetxt ul li{
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+/* clearfix sezione free hubspot */
+.free-hubspot{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* stile sezione delle tre colonne */
 .trittico{
   width: 80%;
   height: 600px;
   margin: 1% 10%;
-  padding-bottom: 1%;
-
 }
 
 .marketing {
