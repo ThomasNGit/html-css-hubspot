@@ -10,13 +10,13 @@
 /* regole header */
 header{
   width: 100%;
-  border: 2px solid black;
+  /* border: 1px solid black; */
 }
 /* stile della navbar */
 .navbar{
   width: 100%;
   background-color: #33475B;
-  border: 2px solid black;
+  /* border: 1px solid black; */
 }
 
 .logo{
@@ -49,7 +49,7 @@ header{
 
 .settings{
   padding: 0 30px;
-  border-right: 2px solid black;
+  border-right: 1px solid black;
 }
 
 .user{
@@ -76,7 +76,7 @@ header{
 .contatti{
   background-color: darkgrey;
   width: 100%;
-  border: 2px solid black;
+  /* border: 1px solid black; */
 }
 
 .lingua{
@@ -127,7 +127,7 @@ header{
 .link{
   width: 100%;
   background-color: white;
-  border: 2px solid black;
+  /* border: 2px solid black; */
 }
 
 #logo{
@@ -175,6 +175,7 @@ header{
   width: 100%;
   height: 500px;
   position: relative;
+  margin-bottom: 5%;
 }
 
 .intro .bg{
@@ -213,32 +214,45 @@ header{
 
 .sezione-grigia{
   width: 100%;
-  height: 1000px;
   background-color: #F5F8FA;
-  border: 2px solid black;
 }
 
 .cubo{
-  height: 200px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 5%;
+}
+
+.imgcubo{
+  margin-top: 10%;
+  width: 20%;
+}
+
+.cubo h2{
+  margin-bottom: 30px;
 }
 
 .free-hubspot{
   width: 80%;
-  height: 200px;
-  margin: 1% 10%;
+  height: 300px;
+  margin: 0 10%;
   background-color: white;
 }
 
 .trittico{
   width: 80%;
+  height: 600px;
   margin: 1% 10%;
+  padding-bottom: 1%;
+
 }
 
 .marketing {
-  height: 400px;
+  height: 600px;
   width: 25%;
   float: left;
   background-color: white;
+  border: 1px solid black;
 }
 
 .col2{
