@@ -174,13 +174,39 @@ header{
 .intro{
   width: 100%;
   height: 500px;
+  position: relative;
 }
 
 .intro .bg{
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  border: 2px solid black;
+}
+
+.introtext{
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  transform: translate(-50%, 50%);
+}
+
+.introtext h1{
+  color: #33475B;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.introtext p{
+  margin-bottom: 45px;
+}
+.introtext a{
+  color: #000;
+  border: 1px solid black;
+  background: #fff;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 /* stile della sezione centrale grigia */
