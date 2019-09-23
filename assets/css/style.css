@@ -170,6 +170,13 @@ header{
   display: table;
   clear: both;
 }
+
+header:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /* stile della prima sezione centrale */
 .intro{
   width: 100%;
@@ -214,7 +221,8 @@ header{
 
 .sezione-grigia{
   width: 100%;
-  background-color: #F5F8FA;
+  background-color: darkgrey;
+  padding-bottom: 30px;
 }
 
 .cubo{
@@ -293,7 +301,7 @@ header{
 /* stile sezione delle tre colonne */
 .trittico{
   width: 60%;
-  margin: 1% 20%;
+  margin: 1% 20% 0;
 }
 
 .marketing {
@@ -360,6 +368,7 @@ header{
   display: table;
   clear: both;
 }
+
 /* stile sezione azzurra */
 
 .azure{
@@ -376,19 +385,19 @@ header{
 
 .eightcontainer{
   width: 60%;
-  height: 600px;
+  height: 400px;
   margin: 5% 20% 0;
 }
 
 .blocco{
   width: 25%;
-  height: 200px;
   float: left;
   text-align: center;
   padding: 30px;
   line-height: 40px;
   color: #fff;
   font-size: 1.4em;
+
 }
 
 .cont1, .cont2, .cont3, .cont4{
@@ -397,4 +406,34 @@ header{
 
 .cont1, .cont2, .cont3, .cont5, .cont6, .cont7{
   border-right: 1px solid white;
+}
+
+/* clearfix sezione azzurra */
+.azure:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* stile sezione foto */
+.start-growing{
+  width: 100%;
+  height: 500px;
+  margin: 0 20%;
+}
+
+.textarea{
+  float: left;
+  width: 30%;
+  height: 500px;
+  background-color: red;
+}
+
+
+.photo{
+  float: left;
+  width: 30%;
+  height: 500px;
+  background-color: blue;
 }
