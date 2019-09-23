@@ -382,7 +382,19 @@ header{
 
 .blocco{
   width: 25%;
-  height: 300px;
+  height: 200px;
   float: left;
-  border: 1px solid black;
+  text-align: center;
+  padding: 30px;
+  line-height: 40px;
+  color: #fff;
+  font-size: 1.4em;
+}
+
+.cont1, .cont2, .cont3, .cont4{
+  border-bottom: 1px solid white;
+}
+
+.cont1, .cont2, .cont3, .cont5, .cont6, .cont7{
+  border-right: 1px solid white;
 }
