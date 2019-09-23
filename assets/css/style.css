@@ -273,6 +273,7 @@ header{
 
 .freetxt ul{
   list-style: square;
+  margin-bottom: 30px;
 }
 
 .freetxt ul li{
@@ -292,7 +293,6 @@ header{
 /* stile sezione delle tre colonne */
 .trittico{
   width: 60%;
-  height: 600px;
   margin: 1% 20%;
 }
 
@@ -301,7 +301,6 @@ header{
   width: 30%;
   float: left;
   background-color: white;
-  border: 1px solid black;
   text-align: center;
 }
 
@@ -339,7 +338,7 @@ header{
 }
 
 .features ul{
-  margin-bottom: 30px;
+  margin-bottom: 80px;
 }
 
 .features i{
@@ -351,7 +350,39 @@ header{
   color: white;
   text-decoration: none;
   background-color: #FF7A59;
-  border: 1px solid black;
+  border: 2px solid black;
   border-radius: 10px;
 }
+
+/* crearfix trittico */
+.trittico:after{
+  content: "";
+  display: table;
+  clear: both;
+}
 /* stile sezione azzurra */
+
+.azure{
+  width: 100%;
+  background-color: #00B8AA;
+}
+
+
+.azure-text{
+  color: #fff;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.eightcontainer{
+  width: 60%;
+  height: 600px;
+  margin: 5% 20% 0;
+}
+
+.blocco{
+  width: 25%;
+  height: 300px;
+  float: left;
+  border: 1px solid black;
+}
